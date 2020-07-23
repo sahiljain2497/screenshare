@@ -324,7 +324,7 @@ class WelcomePage extends AbstractWelcomePage {
             });
         }
 
-        if (_recentListEnabled) {
+        if (_recentListEnabled && interfaceConfig.DISPLAY_RECENT_MEETING) {
             tabs.push({
                 label: t('welcomepage.recentList'),
                 content: <RecentList />

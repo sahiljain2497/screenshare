@@ -44,7 +44,7 @@ var interfaceConfig = {
      */
     CONNECTION_INDICATOR_DISABLED: false,
 
-    DEFAULT_BACKGROUND: 'linear-gradient(45deg, rgba(254,215,18,1) 0%, rgba(254,215,18,1) 40%, rgba(254,215,18,0.8449754901960784) 100%',
+    DEFAULT_BACKGROUND: '#474747',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     DEFAULT_LOGO_URL: 'images/watermark.png',
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Student',
@@ -100,7 +100,7 @@ var interfaceConfig = {
     filmStripOnly: false,
 
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: false,
-
+    DISPLAY_RECENT_MEETING: false,
     /**
      * Hide the invite prompt in the header when alone in the meeting.
      */
