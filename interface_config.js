@@ -44,10 +44,10 @@ var interfaceConfig = {
      */
     CONNECTION_INDICATOR_DISABLED: false,
 
-    DEFAULT_BACKGROUND: '#474747',
+    DEFAULT_BACKGROUND: 'linear-gradient(45deg, rgba(254,215,18,1) 0%, rgba(254,215,18,1) 40%, rgba(254,215,18,0.8449754901960784) 100%',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     DEFAULT_LOGO_URL: 'images/watermark.png',
-    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
+    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Student',
 
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
 
