@@ -130,7 +130,7 @@ var interfaceConfig = {
      */
     MOBILE_APP_PROMO: false,
 
-    NATIVE_APP_NAME: 'Skool Mii',
+    NATIVE_APP_NAME: 'SKOOL Mii',
 
     // Names of browsers which should show a warning stating the current browser
     // has a suboptimal experience. Browsers which are not listed as optimal or
@@ -139,7 +139,7 @@ var interfaceConfig = {
     OPTIMAL_BROWSERS: [ 'chrome', 'chromium', 'firefox', 'nwjs', 'electron', 'safari' ],
 
     POLICY_LOGO: null,
-    PROVIDER_NAME: 'Skool Mii',
+    PROVIDER_NAME: 'SKOOL Mii',
 
     /**
      * If true, will display recent list

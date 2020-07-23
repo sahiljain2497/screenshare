@@ -35,6 +35,15 @@ body {
 .tOoji{
     background: $defaultBackground !important; 
 }
+.eoRGoR{
+    background: $modalBackgroundColor !important;
+}
+.invite-more-button{
+    background: $inviteMoreBackgroundColor !important;
+}
+.invite-more-button:hover{
+    background: #b8aa32 !important;
+}
 /**
  * AtlasKit sets a default margin on the rendered modals, so
  * when the shift-right class is set when the chat opens, we

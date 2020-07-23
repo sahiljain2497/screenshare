@@ -47,7 +47,7 @@ $newToolbarHangupFontSize: 32px;
 $newToolbarSize: 40px;
 $newToolbarSizeWithPadding: calc(#{$newToolbarSize} + 24px);
 $toolbarTitleFontSize: 19px;
-$overflowMenuBG: initial;
+$overflowMenuBG: rgba(0,0,0,0.8);
 $overflowMenuItemHoverBG: #313D52;
 $overflowMenuItemHoverColor: #B8C7E0;
 $overflowMenuItemColor: #B8C7E0;
@@ -278,3 +278,5 @@ $chatInputBackgroundColor: rgba(0,0,0,0.8);
 
 $noVideoBackground:  linear-gradient(0deg, rgba(236,224,62,1) 0%, rgba(29,24,13,1) 100%);
 $largeVideoContainerBackground: linear-gradient(0deg, rgba(236,224,62,1) 0%, rgba(29,24,13,1) 100%);
+$modalBackgroundColor: rgba(0,0,0,0.7);
+$inviteMoreBackgroundColor: #d1c238;
