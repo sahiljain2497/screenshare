@@ -37,7 +37,7 @@ $presence-idle: rgb(172, 172, 172);
 /**
  * Toolbar
  */
-$newToolbarBackgroundColor: rgba(22, 38, 55, 0.8);
+$newToolbarBackgroundColor: rgba(0, 0, 0, 0.8);
 $newToolbarButtonHoverColor: rgba(255, 255, 255, 0.15);
 $newToolbarButtonToggleColor: rgba(255, 255, 255, 0.2);
 $AOTToolbarButtonHoverColor: rgba(14, 20, 35, 0.6);
@@ -90,11 +90,11 @@ $modalTextColor: #333;
  * Chat
  */
 $chatActionsSeparatorColor: rgb(173, 105, 112);
-$chatHeaderBackgroundColor: rgba(42, 58, 75, 0.9);
+$chatHeaderBackgroundColor: rgba(0, 0, 0, 0.8);
 $chatInputSeparatorColor: #A4B8D1;
-$chatLocalMessageBackgroundColor: rgb(4, 98, 178);
+$chatLocalMessageBackgroundColor: rgba(0, 0, 0, 0.8);
 $chatPrivateMessageBackgroundColor: rgb(153, 69, 77);
-$chatRemoteMessageBackgroundColor:  rgb(86, 101, 114);
+$chatRemoteMessageBackgroundColor:  #ffd53b;
 $sidebarWidth: 375px;
 
  /**
@@ -271,3 +271,10 @@ $chromeExtensionBannerTop: 80px;
 $chromeExtensionBannerRight: 16px;
 $chromeExtensionBannerTopInMeeting: 10px;
 $chromeExtensionBannerRightInMeeeting: 10px;
+
+
+$chatConversationBackgroundColor: rgba(0,0,0,0.8);
+$chatInputBackgroundColor: rgba(0,0,0,0.8);
+
+$noVideoBackground:  linear-gradient(0deg, rgba(236,224,62,1) 0%, rgba(29,24,13,1) 100%);
+$largeVideoContainerBackground: linear-gradient(0deg, rgba(236,224,62,1) 0%, rgba(29,24,13,1) 100%);

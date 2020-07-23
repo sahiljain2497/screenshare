@@ -31,7 +31,8 @@
     text-align: left;
     width: $sidebarWidth;
     word-wrap: break-word;
-
+    background: $chatConversationBackgroundColor;
+    border-top: 1px solid white;
     a {
         display: block;
     }
@@ -129,7 +130,7 @@
     border-top: 1px solid $chatInputSeparatorColor;
     display: flex;
     padding: 5px 10px;
-
+    background: $chatInputBackgroundColor;
     * {
         background-color: transparent;
     }
@@ -163,7 +164,7 @@
 
 #nickname {
     text-align: center;
-    color: #9d9d9d;
+    color: white;
     font-size: 18px;
     margin-top: 30px;
     left: 5px;
@@ -190,13 +191,13 @@
     background-color: $chatRemoteMessageBackgroundColor;
     border-radius: 0px 6px 6px 6px;
     box-sizing: border-box;
-    color: white;
+    color: black;
     margin-top: 3px;
     max-width: 100%;
     position: relative;
 
     &.localuser {
-        background-color: $chatLocalMessageBackgroundColor;
+        background-color: $chatRemoteMessageBackgroundColor;
         border-radius: 6px 0px 6px 6px;
     }
 
@@ -315,8 +316,9 @@
         align-items: flex-end;
 
         .chatmessage {
-            background-color: $chatLocalMessageBackgroundColor;
+            background-color: $chatRemoteMessageBackgroundColor;
             border-radius: 6px 0px 6px 6px;
+            color: black;
 
             &.privatemessage {
                 background-color: $chatPrivateMessageBackgroundColor;

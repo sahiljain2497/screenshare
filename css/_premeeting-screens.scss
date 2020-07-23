@@ -32,8 +32,8 @@
         width: 286px;
 
         &.primary {
-            background: #0376DA;
-            border: 1px solid #0376DA;
+            background: black;
+            border: 1px solid black;
         }
 
         &.secondary {
@@ -193,7 +193,8 @@
     width: 100%;
 
     &.no-video {
-        background: radial-gradient(50% 50% at 50% 50%, #5B6F80 0%, #365067 100%), #FFFFFF;
+        // background: radial-gradient(50% 50% at 50% 50%, #5B6F80 0%, #365067 100%), #FFFFFF;
+        background: $noVideoBackground;
         text-align: center;
     }
 

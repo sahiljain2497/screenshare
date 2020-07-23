@@ -44,7 +44,7 @@ var interfaceConfig = {
      */
     CONNECTION_INDICATOR_DISABLED: false,
 
-    DEFAULT_BACKGROUND: '#474747',
+    DEFAULT_BACKGROUND: '#ece03e',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     DEFAULT_LOGO_URL: 'images/watermark.png',
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Student',

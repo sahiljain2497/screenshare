@@ -320,7 +320,7 @@ var config = {
     // If true, shows the unsafe room name warning label when a room name is
     // deemed unsafe (due to the simplicity in the name) and a password is not
     // set or the lobby is not enabled.
-    // enableInsecureRoomNameWarning: false,
+    enableInsecureRoomNameWarning: true,
 
     // Stats
     //
