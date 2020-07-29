@@ -225,8 +225,8 @@ class Watermarks extends Component<Props, State> {
             const link = _customLogoLink || this.state.jitsiWatermarkLink;
             const style = {
                 backgroundImage: `url(${_customLogoUrl || interfaceConfig.DEFAULT_LOGO_URL})`,
-                maxWidth: 140,
-                maxHeight: 70
+                maxWidth: 220,
+                maxHeight: 100
             };
 
             reactElement = (<div
